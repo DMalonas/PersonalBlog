@@ -1,0 +1,26 @@
+.containerFlex{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    border: 2px solid yellow;
+}
+
+.boxFlex{
+    width: stretch;
+    height: stretch;
+    border: 1px solid red;
+}
+
+#one {
+    order: 1;
+}
+
+#two {
+    order: 2;
+}
+
+
+#three {
+    order: 3;
+}
