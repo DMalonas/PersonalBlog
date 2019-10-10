@@ -1,15 +1,24 @@
-.containerFlex{
+.containerFlexRow{
     display:flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: nowrap;
-    border: 2px solid yellow;
+    /*border: 2px solid yellow;*/
 }
 
+.containerFlexColumn{
+    display:flex;
+    flex-direction: column;
+
+   /* justify-content: space-between;
+    flex-wrap: nowrap;
+    border: 2px solid yellow;*/
+}
 .boxFlex{
     width: stretch;
     height: stretch;
-    border: 1px solid red;
+
+    border: 1px solid darkgreen;
 }
 
 #one {

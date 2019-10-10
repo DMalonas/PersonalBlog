@@ -1,6 +1,9 @@
 body {
-    background-color: #444;
+    background-color: #333;
     color: #fff;
+/*    background-image: url(../images/Sky3.jpg);*/
+
+
 }
 
 h1 {
@@ -47,6 +50,7 @@ ul {
 
 .header{
     grid-area: hd;
+
 }
 
 .footer {
@@ -57,9 +61,16 @@ ul {
     grid-area: sd;
 }
 
+.scrollbar {
+    overflow: scroll;
+}
+
 .content {
     background-color: #128f38;
     grid-area: main;
+    background-image: url(../images/cupckage-girl.jpg);
+    background-size: cover;
+    
 
     /*background-image: url("Images/IMG_20170518_135653458.jpg");
     background-size: contain;*/
