@@ -21,6 +21,11 @@
     border: 1px solid darkgreen;
 }
 
+.boxFlexHeader{
+    width: stretch;
+    height: stretch;
+}
+
 #one {
     order: 1;
 }

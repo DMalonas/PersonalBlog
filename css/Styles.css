@@ -6,12 +6,18 @@ body {
 
 }
 
+a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: medium;
+    color: honeydew;
+}
+
 h1 {
     font-family: 'Roboto Slab', serif;
 	font-size:2em;
 	font-weight:300;
 	color:#fb0;
-	border-bottom:solid 1px #fb0;
+	/*border-bottom:solid 1px #fb0;*/
 }
 
 h2{
@@ -42,15 +48,43 @@ ul {
 }
 
 
+
+.index-page {
+    background-color: rgb(2, 19, 2);
+    color: #fff;
+/*    background-image: url(../images/Sky3.jpg);*/
+
+
+}
+
+/*https://www.w3schools.com/css/css3_buttons.asp*/
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+.box-footer {
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
 .box{
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     background: #455;
 }
 
 
 .header{
     grid-area: hd;
-
+    background-color: rgb(75, 73, 73);
 }
 
 .footer {
@@ -68,7 +102,7 @@ ul {
 .content {
     background-color: #128f38;
     grid-area: main;
-    background-image: url(../images/cupckage-girl.jpg);
+    background-image: url(../images/Sky2.jpg);
     background-size: cover;
     
 
@@ -137,4 +171,16 @@ ul {
         "ft ft ft ft ft ft ft ft";
 
     }
+}
+
+.container-index{
+    display: grid;
+    height : 90vh;
+    width : 100%;
+    justify-content: center;
+    grid-template-areas:
+    "hd hd hd hd hd hd hd hd"
+    "sd sd sd sd sd sd sd sd"
+    "ft ft ft ft ft ft ft ft";
+
 }
